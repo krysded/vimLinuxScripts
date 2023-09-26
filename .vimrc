@@ -37,6 +37,7 @@ Plug 'tpope/vim-unimpaired'
 Plug 'scrooloose/nerdtree', { 'on' : 'NERDTreeToggle' }
 Plug 'vim-airline/vim-airline'
 Plug 'rafi/awesome-vim-colorschemes'
+Plug 'jiangmiao/auto-pairs'
 
 " Programming plugins
 Plug 'lervag/vimtex'
@@ -44,7 +45,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'preservim/nerdtree'
 Plug 'rust-lang/rust.vim'
 Plug 'airblade/vim-gitgutter'
-Plug 'neoclide/coc.nvim'
+Plug 'neoclide/coc.nvim', {'branch': 'realase'}
 call plug#end()
 
 
